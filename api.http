@@ -1,0 +1,26 @@
+# Create User
+# POST http://localhost:3000/user
+# Content-Type: application/json
+
+# {
+#         "username": "demoถถถ",
+#         "password": "demoถถถ"
+# }
+
+# pdate User (PUT)
+POST http://localhost:3000/user/2
+Content-Type: application/json
+
+{
+    "username": "updatedUser",
+    "password": "newpass"
+}
+
+# Delete User (DELETE)
+# DELETE http://localhost:3000/user/4
+
+
+
+
+
+
